@@ -1,0 +1,24 @@
+/*********************************************
+ * OPL 12.6.1.0 Data
+ * Author: Lu honghao
+ * Creation Date: 2020-5-9 at 上午7:43:08
+ *********************************************/
+numOfVehicle = 10;
+numOfCustomer = 50; 
+numOfdepot = 1;
+
+Capicity = 200; //车的容量
+ServiceTime = 90; //服务时间
+
+M = 10000; //大常量
+
+SheetConnection sheet("e:\\dataC108_.xlsx");
+Demand from SheetRead(sheet,"Sheet1!D3:D52");
+
+timeWindows from SheetRead(sheet,"Sheet1!E3:F52");
+
+Coordinate from SheetRead(sheet,"Sheet1!B2:C52");
+
+
+
+
